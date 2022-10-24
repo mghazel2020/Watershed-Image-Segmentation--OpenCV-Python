@@ -174,6 +174,7 @@ plt<span style="color:#808030; ">.</span>axis<span style="color:#808030; ">(</sp
 plt<span style="color:#808030; ">.</span>show<span style="color:#808030; ">(</span><span style="color:#808030; ">)</span>
 </pre>
 
+
 <img src="images/image-01-gray-thresholded.webp" width = "500"/>
 
 
