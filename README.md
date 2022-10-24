@@ -186,8 +186,9 @@ plt<span style="color:#808030; ">.</span>show<span style="color:#808030; ">(</sp
   * Needs to be filtered out as we are not interested in this part
 * The remaining unknown region:
   * We are not confident if this part belongs to the foreground or background?
-  
-  <pre style="color:#000000;background:#e6ffff;font-size:10px;line-height:1.5;"><span style="color:#696969; ">#--------------------------------------------------------------</span>
+
+ 
+<pre style="color:#000000;background:#e6ffff;font-size:10px;line-height:1.5;"><span style="color:#696969; ">#--------------------------------------------------------------</span>
 <span style="color:#696969; "># Step 3: Segment the image into 3 parts:</span>
 <span style="color:#696969; ">#         3.1) sure foreground area</span>
 <span style="color:#696969; ">#         3.2) sure background area</span>
@@ -269,7 +270,8 @@ plt<span style="color:#808030; ">.</span>axis<span style="color:#808030; ">(</sp
 plt<span style="color:#808030; ">.</span>show<span style="color:#808030; ">(</span><span style="color:#808030; ">)</span>
 </pre>
 
-<img src="images/image-01-foreground-vs-background.webp" width = "500"/>
+
+<img src="images/image-01-foreground-vs-background.webp" width = "1000"/>
 
 ### 4.5. Step 5: Label the three sub-regions segmented in the previous step:
 
