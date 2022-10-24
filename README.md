@@ -420,7 +420,7 @@ now <span style="color:#808030; ">=</span> datetime<span style="color:#808030; "
 
 ## 7. Future Work
 
-* We proposed to explore the following related issues:
+* We propose to explore the following related issues:
 
   * We shall explore improving the instance segmentation results for overlapping or touching cells, by adjusting some of the algorithm configuration parameters.
 
