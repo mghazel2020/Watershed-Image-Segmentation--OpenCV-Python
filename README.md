@@ -1,6 +1,6 @@
 # Watershed Image Segmentation in Python
 
-<img src="images/banner-001.jpg" width = "500" />
+<img src="images/banner-001.jpg" width="1000" />
 
 ## 1. Objective
 
@@ -23,7 +23,7 @@ To avoid that, we need to build barriers in the locations where the water would 
     * Therefore, we need to put the first watershed line. 
     * Afterward, segment 2 and segment 3 will be merged so we need to add another watershed line.
 
-<img src="images/Watershed-illustration-01.PNG" />
+<img src="images/Watershed-illustration-01.PNG" width="1000" />
 
 ## 3. Data
 
@@ -140,7 +140,7 @@ plt<span style="color:#808030; ">.</span>axis<span style="color:#808030; ">(</sp
 plt<span style="color:#808030; ">.</span>show<span style="color:#808030; ">(</span><span style="color:#808030; ">)</span>
 </pre>
 
-<img src="images/blood-cells-01.png" width = "500"/>
+<img src="images/blood-cells-01.png" width="1000"/>
 
 
 ### 4.3. Step 3: Apply adaptive thresholding to binarize the image:
@@ -175,7 +175,7 @@ plt<span style="color:#808030; ">.</span>show<span style="color:#808030; ">(</sp
 </pre>
 
 
-<img src="images/image-01-gray-thresholded.webp" width = "500"/>
+<img src="images/image-01-gray-thresholded.webp" width="1000" />
 
 
 ### 4.4. Step 4:  Perform coarse segmentation of the binarized image:
@@ -310,7 +310,7 @@ plt<span style="color:#808030; ">.</span>axis<span style="color:#808030; ">(</sp
 plt<span style="color:#808030; ">.</span>show<span style="color:#808030; ">(</span><span style="color:#808030; ">)</span>
 </pre>
 
-<img src="images/image-01-three-labeled-subregions.jpg" width = "500"/>
+<img src="images/image-01-three-labeled-subregions.jpg" width="1000" />
 
 #### Observations: 
 
@@ -362,7 +362,7 @@ plt<span style="color:#808030; ">.</span>axis<span style="color:#808030; ">(</sp
 plt<span style="color:#808030; ">.</span>show<span style="color:#808030; ">(</span><span style="color:#808030; ">)</span>
 </pre>
 
-<img src="images/image-01-final-labeled-subregions.jpg" width = "500"/>
+<img src="images/image-01-final-labeled-subregions.jpg" width="1000" />
 
 We observe that the foreground (coins) and the background are now clearly segmented without any ambiguities, thanks to the Watershed algorithm.
 
@@ -370,7 +370,7 @@ We observe that the foreground (coins) and the background are now clearly segmen
 
 * We generated boundary contours of the segmented cells.
 
-<img src="images/image-01-final-segmentation-results.jpg" width = "500"/>
+<img src="images/image-01-final-segmentation-results.jpg" width="1000" />
 
 ### 4.8. Step 8: Display the end of successful execution message:
 
